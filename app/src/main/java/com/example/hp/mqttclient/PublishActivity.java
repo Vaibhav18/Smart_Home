@@ -156,6 +156,7 @@ public class PublishActivity extends AppCompatActivity {
                     speech2.setText(text.get(1));
                 }
                 break;
+
             }
 
         }
