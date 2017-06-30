@@ -71,9 +71,10 @@ public class PublishActivity extends AppCompatActivity {
 
         String ip =sp1.getString("sharedPreference_ip", null);
         String tp = sp1.getString("sharedPreference_topic", null);
+        String test= ip+"   "+tp;
 
-        Toast.makeText(PublishActivity.this, ip, Toast.LENGTH_LONG).show();
-        Toast.makeText(PublishActivity.this, tp, Toast.LENGTH_LONG).show();
+        Toast.makeText(PublishActivity.this, test, Toast.LENGTH_LONG).show();
+        //Toast.makeText(PublishActivity.this, tp, Toast.LENGTH_LONG).show();
 
 
         publish_Button = (Button)findViewById(R.id.publish);

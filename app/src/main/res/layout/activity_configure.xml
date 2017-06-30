@@ -42,6 +42,12 @@
             android:id="@+id/topic_name"
             android:layout_gravity="center_horizontal" />
 
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/broker"
+            android:hint="Broker IP"/>
+
         <Button
             android:layout_width="124dp"
             android:layout_height="wrap_content"
@@ -51,6 +57,13 @@
             android:layout_marginStart="291dp"
             android:layout_marginBottom="137dp"
             android:layout_gravity="right" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/content"
+            android:layout_gravity="center_horizontal" />
 
     </LinearLayout>
 

@@ -107,7 +107,7 @@ public class MainActivity extends AppCompatActivity {
                 public void onSuccess(IMqttToken asyncActionToken) {
 
                     // The message was published
-                    Toast.makeText(MainActivity.this, "subscribed", Toast.LENGTH_LONG).show();
+                    //Toast.makeText(MainActivity.this, "subscribed", Toast.LENGTH_LONG).show();
                     client.setCallback(new ReceiveMessage(MainActivity.this));
                     if(exists==false)
                     {
